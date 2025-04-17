@@ -1,0 +1,12 @@
+# Sensitive files
+*.pem
+*.key
+*.crt
+.env
+credentials.json
+*.json
+
+# System files
+.DS_Store
+.vscode/
+.idea/

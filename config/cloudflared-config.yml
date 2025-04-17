@@ -1,0 +1,6 @@
+tunnel: 136fa479-9ee8-4382-9b61-16de77417af5
+credentials-file: /home/sitboo/.cloudflared/136fa479-9ee8-4382-9b61-16de77417af5.json
+ingress:
+  - service: http://localhost:80
+    originRequest:
+      noTLSVerify: true
